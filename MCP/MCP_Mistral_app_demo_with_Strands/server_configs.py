@@ -3,7 +3,7 @@ SERVER_CONFIGS = [
         StdioServerParameters(
             command="npx",
             args=["-y", "@modelcontextprotocol/server-google-maps"],
-            env={"GOOGLE_MAPS_API_KEY": "<ADD_GOOGLE_MAP_API>"}
+            env={"GOOGLE_MAPS_API_KEY": "<GOOGLE_API_KEY>"}
         ),
         StdioServerParameters(
             command="npx",
@@ -13,4 +13,5 @@ SERVER_CONFIGS = [
             command="npx",
             args=["@modelcontextprotocol/server-memory"]
             )
+
     ]
